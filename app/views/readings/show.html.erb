@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Email:</b>
+  <%= @reading.email %>
+</p>
+
+<p>
+  <b>Gas:</b>
+  <%= @reading.gas %>
+</p>
+
+<p>
+  <b>Electric:</b>
+  <%= @reading.electric %>
+</p>
+
+
+<%= link_to 'Edit', edit_reading_path(@reading) %> |
+<%= link_to 'Back', readings_path %>

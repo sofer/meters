@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: MyString
+  gas: 1
+  electric: 1
+
+two:
+  email: MyString
+  gas: 1
+  electric: 1

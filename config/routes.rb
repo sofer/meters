@@ -1,4 +1,8 @@
 Meters::Application.routes.draw do
+  resources :readings
+  root :to => 'readings#new'
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
