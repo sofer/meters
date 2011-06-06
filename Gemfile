@@ -5,7 +5,7 @@ gem 'rails', '3.1.0.rc1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-#gem 'thin'
+gem 'thin'
 
 group :production do
   gem "therubyracer-heroku", "~> 0.8.1.pre3"
