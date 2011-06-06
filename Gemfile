@@ -5,9 +5,16 @@ gem 'rails', '3.1.0.rc1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem "therubyracer-heroku", "~> 0.8.1.pre3"
-gem 'pg', :group => :production
-gem 'sqlite3', :group => :development
+#gem 'thin'
+
+group :production do
+  gem "therubyracer-heroku", "~> 0.8.1.pre3"
+  gem 'pg', 
+end
+
+group :test, :development do
+  gem 'sqlite3'
+end
 
 # Asset template engines
 gem 'sass'
